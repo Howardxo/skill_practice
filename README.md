@@ -35,11 +35,14 @@ python scripts/parse_skills.py
 
 會覆寫 `data/*.json` 與 `data/index.json`。
 
-## 部署到 Vercel
+## 部署到 Vercel（避免 404）
 
-1. 將此專案推送到 GitHub（或連到 Vercel 支援的 Git）
-2. 在 [Vercel](https://vercel.com) 新增專案，匯入此 repo
-3. 根目錄維持本專案目錄，Build 設定可留空（純靜態）
-4. 部署後即可用產生的網址存取
+1. 將此專案推送到 GitHub（或 Vercel 支援的 Git）。
+2. 在 [Vercel](https://vercel.com) 新增專案，匯入該 repo。
+3. **必做**：在專案 **Settings → General → Root Directory**：
+   - 若你的 repo 根目錄就是「網站」資料夾（裡面有 `index.html`、`data/`、`vercel.json`），留空即可。
+   - 若 repo 根目錄是上一層（例如還有 `技能參數.md`、`網站` 子資料夾等），請把 **Root Directory** 設成 **`網站`**（或你放 index.html 的那個資料夾名稱），讓 Vercel 的部署根目錄就是「網站」。
+4. **建議**：**Settings → General → Framework Preset** 選 **Other**（不要選 Next.js、Vite 等），這樣不會跑 build，直接當靜態檔部署。
+5. 儲存後重新 **Redeploy**，再開首頁網址應可正常顯示。
 
-若專案根目錄就是「網站」資料夾，在 Vercel 的 **Root Directory** 設成此資料夾即可。
+若仍 404，請確認在 Vercel 的部署根目錄下能看到 `index.html` 和 `data/index.json`（在 Vercel 的 Deployments → 該次部署 → 點進去看檔案列表）。
