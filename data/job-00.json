@@ -1,0 +1,424 @@
+{
+  "name": "劍士",
+  "skills": [
+    {
+      "name": "生命淨化",
+      "maxLevel": 16,
+      "description": "靜止不動時，增加每5秒的HP恢復量",
+      "levels": [
+        {
+          "level": 1,
+          "effect": "HP恢復增加3"
+        },
+        {
+          "level": 2,
+          "effect": "HP恢復增加6"
+        },
+        {
+          "level": 3,
+          "effect": "HP恢復增加9"
+        },
+        {
+          "level": 4,
+          "effect": "HP恢復增加12"
+        },
+        {
+          "level": 5,
+          "effect": "HP恢復增加15"
+        },
+        {
+          "level": 6,
+          "effect": "HP恢復增加18"
+        },
+        {
+          "level": 7,
+          "effect": "HP恢復增加21"
+        },
+        {
+          "level": 8,
+          "effect": "HP恢復增加24"
+        },
+        {
+          "level": 9,
+          "effect": "HP恢復增加27"
+        },
+        {
+          "level": 10,
+          "effect": "HP恢復增加30"
+        },
+        {
+          "level": 11,
+          "effect": "HP恢復增加33"
+        },
+        {
+          "level": 12,
+          "effect": "HP恢復增加36"
+        },
+        {
+          "level": 13,
+          "effect": "HP恢復增加39"
+        },
+        {
+          "level": 14,
+          "effect": "HP恢復增加42"
+        },
+        {
+          "level": 15,
+          "effect": "HP恢復增加45"
+        },
+        {
+          "level": 16,
+          "effect": "HP恢復增加50"
+        }
+      ]
+    },
+    {
+      "name": "生命擴展",
+      "maxLevel": 10,
+      "description": "等級上升時以及使用升級點數加HP時，提升總HP的增加量。",
+      "levels": [
+        {
+          "level": 1,
+          "effect": "最大HP 升級時增加4，使用升級點數提升時增加3"
+        },
+        {
+          "level": 2,
+          "effect": "最大HP 升級時增加8，使用升級點數提升時增加6"
+        },
+        {
+          "level": 3,
+          "effect": "最大HP 升級時增加12，使用升級點數提升時增加9"
+        },
+        {
+          "level": 4,
+          "effect": "最大HP 升級時增加16，使用升級點數提升時增加12"
+        },
+        {
+          "level": 5,
+          "effect": "最大HP 升級時增加20，使用升級點數提升時增加15"
+        },
+        {
+          "level": 6,
+          "effect": "最大HP 升級時增加24，使用升級點數提升時增加18"
+        },
+        {
+          "level": 7,
+          "effect": "最大HP 升級時增加28，使用升級點數提升時增加21"
+        },
+        {
+          "level": 8,
+          "effect": "最大HP 升級時增加32，使用升級點數提升時增加24"
+        },
+        {
+          "level": 9,
+          "effect": "最大HP 升級時增加36，使用升級點數提升時增加27"
+        },
+        {
+          "level": 10,
+          "effect": "最大HP 升級時增加40，使用升級點數提升時增加30"
+        }
+      ]
+    },
+    {
+      "name": "生命恢復",
+      "maxLevel": 8,
+      "description": "在梯子和繩索上面也可以恢復HP/ MP。",
+      "levels": [
+        {
+          "level": 1,
+          "effect": "每31秒恢復HP。"
+        },
+        {
+          "level": 2,
+          "effect": "每28秒恢復HP。"
+        },
+        {
+          "level": 3,
+          "effect": "每25秒恢復HP。"
+        },
+        {
+          "level": 4,
+          "effect": "每22秒恢復HP。"
+        },
+        {
+          "level": 5,
+          "effect": "每19秒恢復HP。"
+        },
+        {
+          "level": 6,
+          "effect": "每16秒恢復HP。"
+        },
+        {
+          "level": 7,
+          "effect": "每13秒恢復HP。"
+        },
+        {
+          "level": 8,
+          "effect": "每10秒恢復HP。"
+        }
+      ]
+    },
+    {
+      "name": "自身強化",
+      "maxLevel": 20,
+      "description": "一定時間內物理防禦力增加",
+      "levels": [
+        {
+          "level": 1,
+          "effect": "持續75秒，消耗MP 8，物理防禦力增加2"
+        },
+        {
+          "level": 2,
+          "effect": "持續85秒，消耗MP 8，物理防禦力增加4"
+        },
+        {
+          "level": 3,
+          "effect": "持續95秒，消耗MP 8，物理防禦力增加6"
+        },
+        {
+          "level": 4,
+          "effect": "持續105秒，消耗MP 8，物理防禦力增加8"
+        },
+        {
+          "level": 5,
+          "effect": "持續120秒，消耗MP 9，物理防禦力增加10"
+        },
+        {
+          "level": 6,
+          "effect": "持續130秒，消耗MP 9，物理防禦力增加12"
+        },
+        {
+          "level": 7,
+          "effect": "持續140秒，消耗MP 9，物理防禦力增加14"
+        },
+        {
+          "level": 8,
+          "effect": "持續155秒，消耗MP 10，物理防禦力增加16"
+        },
+        {
+          "level": 9,
+          "effect": "持續165秒，消耗MP 10，物理防禦力增加18"
+        },
+        {
+          "level": 10,
+          "effect": "持續175秒，消耗MP 10，物理防禦力增加20"
+        },
+        {
+          "level": 11,
+          "effect": "持續190秒，消耗MP 11，物理防禦力增加22"
+        },
+        {
+          "level": 12,
+          "effect": "持續200秒，消耗MP11，物理防禦力增加24"
+        },
+        {
+          "level": 13,
+          "effect": "持續215秒，消耗MP12，物理防禦力增加26"
+        },
+        {
+          "level": 14,
+          "effect": "持續225秒，消耗MP12，物理防禦力增加28"
+        },
+        {
+          "level": 15,
+          "effect": "持續240秒，消耗MP13，物理防禦力增加30"
+        },
+        {
+          "level": 16,
+          "effect": "持續250秒，消耗MP13，物理防禦力增加32"
+        },
+        {
+          "level": 17,
+          "effect": "持續265秒，消耗MP14，物理防禦力增加34"
+        },
+        {
+          "level": 18,
+          "effect": "持續275秒，消耗MP14，物理防禦力增加36"
+        },
+        {
+          "level": 19,
+          "effect": "持續290秒，消耗MP15，物理防禦力增加38"
+        },
+        {
+          "level": 20,
+          "effect": "持續300秒，消耗MP15，物理防禦力增加40"
+        }
+      ]
+    },
+    {
+      "name": "魔天一擊",
+      "maxLevel": 20,
+      "description": "消耗MP給怪物以強力一擊",
+      "levels": [
+        {
+          "level": 1,
+          "effect": "消耗MP4，攻擊力255%"
+        },
+        {
+          "level": 2,
+          "effect": "消耗MP4，攻擊力260%"
+        },
+        {
+          "level": 3,
+          "effect": "消耗MP4，攻擊力265%"
+        },
+        {
+          "level": 4,
+          "effect": "消耗MP4，攻擊力270%"
+        },
+        {
+          "level": 5,
+          "effect": "消耗MP5，攻擊力275%"
+        },
+        {
+          "level": 6,
+          "effect": "消耗MP5，攻擊力280%"
+        },
+        {
+          "level": 7,
+          "effect": "消耗MP5，攻擊力285%"
+        },
+        {
+          "level": 8,
+          "effect": "消耗MP6，攻擊力290%"
+        },
+        {
+          "level": 9,
+          "effect": "消耗MP6，攻擊力295%"
+        },
+        {
+          "level": 10,
+          "effect": "消耗MP7，攻擊力300%"
+        },
+        {
+          "level": 11,
+          "effect": "消耗MP7，攻擊力305%"
+        },
+        {
+          "level": 12,
+          "effect": "消耗MP8，攻擊力310%"
+        },
+        {
+          "level": 13,
+          "effect": "消耗MP8，攻擊力315%"
+        },
+        {
+          "level": 14,
+          "effect": "消耗MP9，攻擊力320%"
+        },
+        {
+          "level": 15,
+          "effect": "消耗MP9，攻擊力325%"
+        },
+        {
+          "level": 16,
+          "effect": "消耗MP10，攻擊力330%"
+        },
+        {
+          "level": 17,
+          "effect": "消耗MP10，攻擊力335%"
+        },
+        {
+          "level": 18,
+          "effect": "消耗MP11，攻擊力340%"
+        },
+        {
+          "level": 19,
+          "effect": "消耗MP11，攻擊力345%"
+        },
+        {
+          "level": 20,
+          "effect": "消耗MP12，攻擊力350%"
+        }
+      ]
+    },
+    {
+      "name": "劍氣縱橫",
+      "maxLevel": 20,
+      "description": "消耗HP和MP同時攻擊周遭的多個怪物，攻擊2次",
+      "levels": [
+        {
+          "level": 1,
+          "effect": "消耗HP8和MP6, 攻擊力92%"
+        },
+        {
+          "level": 2,
+          "effect": "消耗HP8和MP6, 攻擊力94%"
+        },
+        {
+          "level": 3,
+          "effect": "消耗HP8和MP6, 攻擊力96%"
+        },
+        {
+          "level": 4,
+          "effect": "消耗HP8和MP6, 攻擊力98%"
+        },
+        {
+          "level": 5,
+          "effect": "消耗HP9和MP7, 攻擊力100%"
+        },
+        {
+          "level": 6,
+          "effect": "消耗HP9和MP7, 攻擊力102%"
+        },
+        {
+          "level": 7,
+          "effect": "消耗HP9和MP7, 攻擊力104%"
+        },
+        {
+          "level": 8,
+          "effect": "消耗HP10和MP8, 攻擊力106%"
+        },
+        {
+          "level": 9,
+          "effect": "消耗HP10和MP8, 攻擊力108%"
+        },
+        {
+          "level": 10,
+          "effect": "消耗HP11和MP9, 攻擊力110%"
+        },
+        {
+          "level": 11,
+          "effect": "消耗HP11和MP9, 攻擊力112%"
+        },
+        {
+          "level": 12,
+          "effect": "消耗HP12和MP10, 攻擊力114%"
+        },
+        {
+          "level": 13,
+          "effect": "消耗HP12和MP10, 攻擊力116%"
+        },
+        {
+          "level": 14,
+          "effect": "消耗HP13和MP11, 攻擊力118%"
+        },
+        {
+          "level": 15,
+          "effect": "消耗HP13和MP11, 攻擊力120%"
+        },
+        {
+          "level": 16,
+          "effect": "消耗HP14和MP12, 攻擊力122%"
+        },
+        {
+          "level": 17,
+          "effect": "消耗HP14和MP12, 攻擊力124%"
+        },
+        {
+          "level": 18,
+          "effect": "消耗HP15和MP13, 攻擊力126%"
+        },
+        {
+          "level": 19,
+          "effect": "消耗HP15和MP13, 攻擊力128%"
+        },
+        {
+          "level": 20,
+          "effect": "消耗HP16和MP14, 攻擊力130%"
+        }
+      ]
+    }
+  ],
+  "id": "job-00"
+}

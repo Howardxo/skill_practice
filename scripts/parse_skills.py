@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 
 MD_PATH = Path(__file__).resolve().parent.parent / "技能參數.md"
-DATA_DIR = Path(__file__).resolve().parent.parent / "public" / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 def parse_md(path):
     with open(path, "r", encoding="utf-8") as f:

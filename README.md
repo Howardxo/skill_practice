@@ -5,10 +5,10 @@
 ## 專案結構
 
 - `index.html` — 首頁，選擇職業群後按需載入該職業的 JSON
-- `public/data/index.json` — 職業群清單（id、名稱、檔案名）
-- `public/data/job-XX.json` — 各職業群技能資料（一個職業一個檔案）
+- `data/index.json` — 職業群清單（id、名稱、檔案名）
+- `data/job-XX.json` — 各職業群技能資料（一個職業一個檔案）
 - `scripts/parse_skills.py` — 從 `技能參數.md` 解析並產生上述 JSON
-- `vercel.json` — Vercel 設定（cleanUrls）
+- `vercel.json` — Vercel 設定（cleanUrls、rewrites 避免首頁 404）
 
 ## 本地預覽
 
@@ -33,7 +33,7 @@ python -m http.server 8080
 python scripts/parse_skills.py
 ```
 
-會覆寫 `public/data/*.json` 與 `public/data/index.json`。
+會覆寫 `data/*.json` 與 `data/index.json`。
 
 ## 部署到 Vercel
 
