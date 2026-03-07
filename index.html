@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>技能參數查詢</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0f0e14;
+      --surface: #1a1822;
+      --surface-hover: #24212d;
+      --border: #2d2a38;
+      --text: #e8e4f0;
+      --text-muted: #9b96a8;
+      --accent: #7c6cf5;
+      --accent-dim: #5b4dd4;
+      --max-w: 56rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Noto Sans TC", sans-serif;
+      line-height: 1.6;
+    }
+    .page {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 1.5rem;
+      padding-bottom: 3rem;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0 0 0.25rem;
+      background: linear-gradient(135deg, #b8a9ff 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .sub {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    .job-select-wrap {
+      margin: 1.5rem 0 2rem;
+    }
+    .job-select-wrap label {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    select {
+      width: 100%;
+      max-width: 20rem;
+      padding: 0.65rem 2rem 0.65rem 0.85rem;
+      font: inherit;
+      font-size: 1rem;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%239b96a8' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+    }
+    select:hover, select:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
+    }
+    .error {
+      padding: 1rem;
+      background: rgba(220, 80, 80, 0.15);
+      border: 1px solid rgba(220, 80, 80, 0.4);
+      border-radius: 8px;
+      color: #e88;
+    }
+    .job-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin: 0 0 1rem;
+      color: var(--text);
+    }
+    .skills {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .skill-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .skill-card:hover {
+      border-color: var(--accent-dim);
+      background: var(--surface-hover);
+    }
+    .skill-header {
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .skill-name {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--text);
+    }
+    .skill-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .skill-desc {
+      padding: 0 1.25rem 0.75rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .skill-levels {
+      padding: 0.75rem 1.25rem 1rem;
+      max-height: 280px;
+      overflow-y: auto;
+    }
+    .skill-levels::-webkit-scrollbar {
+      width: 6px;
+    }
+    .skill-levels::-webkit-scrollbar-track { background: transparent; }
+    .skill-levels::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+    .level-row {
+      display: grid;
+      grid-template-columns: 4rem 1fr;
+      gap: 0.75rem;
+      padding: 0.35rem 0;
+      font-size: 0.875rem;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .level-row:last-child { border-bottom: none; }
+    .level-num {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .level-effect {
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>咪嚕谷 · 技能參數</h1>
+      <p class="sub">選擇職業群即可載入該職業技能資料（按需載入，不一次載入全部）</p>
+    </header>
+
+    <div class="job-select-wrap">
+      <label for="job">職業群</label>
+      <select id="job" aria-label="選擇職業群">
+        <option value="">-- 請選擇職業群 --</option>
+      </select>
+    </div>
+
+    <div id="content">
+      <p class="loading" id="loading">載入職業清單中…</p>
+      <div id="error" class="error" style="display:none;"></div>
+      <div id="result" style="display:none;"></div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_BASE = "public/data";
+    const jobSelect = document.getElementById("job");
+    const loadingEl = document.getElementById("loading");
+    const errorEl = document.getElementById("error");
+    const resultEl = document.getElementById("result");
+
+    function showLoading(msg) {
+      loadingEl.textContent = msg || "載入中…";
+      loadingEl.style.display = "block";
+      errorEl.style.display = "none";
+      resultEl.style.display = "none";
+    }
+
+    function showError(msg) {
+      loadingEl.style.display = "none";
+      errorEl.textContent = msg;
+      errorEl.style.display = "block";
+      resultEl.style.display = "none";
+    }
+
+    function showResult(html) {
+      loadingEl.style.display = "none";
+      errorEl.style.display = "none";
+      resultEl.innerHTML = html;
+      resultEl.style.display = "block";
+    }
+
+    async function loadIndex() {
+      const res = await fetch(`${DATA_BASE}/index.json`);
+      if (!res.ok) throw new Error("無法載入職業清單");
+      return res.json();
+    }
+
+    async function loadJob(file) {
+      const res = await fetch(`${DATA_BASE}/${file}`);
+      if (!res.ok) throw new Error("無法載入該職業資料");
+      return res.json();
+    }
+
+    function renderJob(data) {
+      const skills = data.skills || [];
+      const cards = skills.map(skill => {
+        const levels = (skill.levels || [])
+          .map(l => `<div class="level-row"><span class="level-num">等級${l.level}</span><span class="level-effect">${escapeHtml(l.effect || "")}</span></div>`)
+          .join("");
+        return `
+          <article class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">${escapeHtml(skill.name)}</span>
+              <span class="skill-meta">最高等級：${skill.maxLevel != null ? skill.maxLevel : "—"}</span>
+            </div>
+            ${skill.description ? `<div class="skill-desc">${escapeHtml(skill.description)}</div>` : ""}
+            <div class="skill-levels">${levels || "<p class=\"text-muted\">無等級資料</p>"}</div>
+          </article>`;
+      }).join("");
+      return `
+        <h2 class="job-title">${escapeHtml(data.name)}</h2>
+        <div class="skills">${cards}</div>`;
+    }
+
+    function escapeHtml(s) {
+      const div = document.createElement("div");
+      div.textContent = s;
+      return div.innerHTML;
+    }
+
+    async function onJobChange() {
+      const file = jobSelect.value;
+      if (!file) {
+        resultEl.style.display = "none";
+        loadingEl.style.display = "none";
+        errorEl.style.display = "none";
+        return;
+      }
+      showLoading("載入技能資料中…");
+      try {
+        const data = await loadJob(file);
+        showResult(renderJob(data));
+      } catch (e) {
+        showError(e.message || "載入失敗");
+      }
+    }
+
+    (async function init() {
+      try {
+        const index = await loadIndex();
+        loadingEl.style.display = "none";
+        index.forEach(({ name, file }) => {
+          const opt = document.createElement("option");
+          opt.value = file;
+          opt.textContent = name;
+          jobSelect.appendChild(opt);
+        });
+        jobSelect.addEventListener("change", onJobChange);
+      } catch (e) {
+        showError(e.message || "無法載入職業清單");
+      }
+    })();
+  </script>
+</body>
+</html>
