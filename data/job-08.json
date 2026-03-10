@@ -222,123 +222,123 @@
       "levels": [
         {
           "level": 1,
-          "effect": "消耗MP10, 攻擊力122%, 對五名怪物八次攻擊"
+          "effect": "消耗MP10, 攻擊力162%"
         },
         {
           "level": 2,
-          "effect": "消耗MP10, 攻擊力124%, 對五名怪物八次攻擊"
+          "effect": "消耗MP10, 攻擊力164%"
         },
         {
           "level": 3,
-          "effect": "消耗MP10, 攻擊力126%, 對五名怪物八次攻擊"
+          "effect": "消耗MP10, 攻擊力166%"
         },
         {
           "level": 4,
-          "effect": "消耗MP10, 攻擊力128%, 對五名怪物八次攻擊"
+          "effect": "消耗MP10, 攻擊力168%"
         },
         {
           "level": 5,
-          "effect": "消耗MP10, 攻擊力130%, 對五名怪物八次攻擊"
+          "effect": "消耗MP10, 攻擊力170%"
         },
         {
           "level": 6,
-          "effect": "消耗MP13, 攻擊力132%, 對五名怪物八次攻擊"
+          "effect": "消耗MP13, 攻擊力172%"
         },
         {
           "level": 7,
-          "effect": "消耗MP13, 攻擊力134%, 對五名怪物八次攻擊"
+          "effect": "消耗MP13, 攻擊力174%"
         },
         {
           "level": 8,
-          "effect": "消耗MP13, 攻擊力136%, 對五名怪物八次攻擊"
+          "effect": "消耗MP13, 攻擊力176%"
         },
         {
           "level": 9,
-          "effect": "消耗MP13, 攻擊力138%, 對五名怪物八次攻擊"
+          "effect": "消耗MP13, 攻擊力178%"
         },
         {
           "level": 10,
-          "effect": "消耗MP13, 攻擊力140%, 對五名怪物八次攻擊"
+          "effect": "消耗MP13, 攻擊力180%"
         },
         {
           "level": 11,
-          "effect": "消耗MP16, 攻擊力142%, 對五名怪物八次攻擊"
+          "effect": "消耗MP16, 攻擊力182%"
         },
         {
           "level": 12,
-          "effect": "消耗MP16, 攻擊力144%, 對五名怪物八次攻擊"
+          "effect": "消耗MP16, 攻擊力184%"
         },
         {
           "level": 13,
-          "effect": "消耗MP16, 攻擊力146%, 對五名怪物八次攻擊"
+          "effect": "消耗MP16, 攻擊力186%"
         },
         {
           "level": 14,
-          "effect": "消耗MP16, 攻擊力148%, 對五名怪物八次攻擊"
+          "effect": "消耗MP16, 攻擊力188%"
         },
         {
           "level": 15,
-          "effect": "消耗MP16, 攻擊力150%, 對五名怪物八次攻擊"
+          "effect": "消耗MP16, 攻擊力190%"
         },
         {
           "level": 16,
-          "effect": "消耗MP19, 攻擊力152%, 對五名怪物八次攻擊"
+          "effect": "消耗MP19, 攻擊力192%"
         },
         {
           "level": 17,
-          "effect": "消耗MP19, 攻擊力154%, 對五名怪物八次攻擊"
+          "effect": "消耗MP19, 攻擊力194%"
         },
         {
           "level": 18,
-          "effect": "消耗MP19, 攻擊力156%, 對五名怪物八次攻擊"
+          "effect": "消耗MP19, 攻擊力196%"
         },
         {
           "level": 19,
-          "effect": "消耗MP19, 攻擊力158%, 對五名怪物八次攻擊"
+          "effect": "消耗MP19, 攻擊力198%"
         },
         {
           "level": 20,
-          "effect": "消耗MP19, 攻擊力160%, 對五名怪物八次攻擊"
+          "effect": "消耗MP19, 攻擊力200%"
         },
         {
           "level": 21,
-          "effect": "消耗MP21, 攻擊力162%, 對五名怪物八次攻擊"
+          "effect": "消耗MP21, 攻擊力202%"
         },
         {
           "level": 22,
-          "effect": "消耗MP21, 攻擊力164%, 對五名怪物八次攻擊"
+          "effect": "消耗MP21, 攻擊力204%"
         },
         {
           "level": 23,
-          "effect": "消耗MP21, 攻擊力166%, 對五名怪物八次攻擊"
+          "effect": "消耗MP21, 攻擊力206%"
         },
         {
           "level": 24,
-          "effect": "消耗MP21, 攻擊力168%, 對五名怪物八次攻擊"
+          "effect": "消耗MP21, 攻擊力208%"
         },
         {
           "level": 25,
-          "effect": "消耗MP21, 攻擊力170%, 對五名怪物八次攻擊"
+          "effect": "消耗MP21, 攻擊力210%"
         },
         {
           "level": 26,
-          "effect": "消耗MP24, 攻擊力172%, 對五名怪物八次攻擊"
+          "effect": "消耗MP24, 攻擊力212%"
         },
         {
           "level": 27,
-          "effect": "消耗MP24, 攻擊力174%, 對五名怪物八次攻擊"
+          "effect": "消耗MP24, 攻擊力214%"
         },
         {
           "level": 28,
-          "effect": "消耗MP24, 攻擊力176%, 對五名怪物八次攻擊"
+          "effect": "消耗MP24, 攻擊力216%"
         },
         {
           "level": 29,
-          "effect": "消耗MP24, 攻擊力178%, 對五名怪物八次攻擊"
+          "effect": "消耗MP24, 攻擊力218%"
         },
         {
           "level": 30,
-          "effect": "消耗MP24, 攻擊力180%, 對五名怪物八次攻擊"
+          "effect": "消耗MP24, 攻擊力220%"
         }
       ]
     },
@@ -472,127 +472,127 @@
     {
       "name": "無雙矛",
       "maxLevel": 30,
-      "description": "[最終等級:30]揮動矛 ，對中距離多數怪物進行攻擊。最多攻擊6個怪物七次。",
+      "description": "[最終等級:30]揮動矛 ，對中距離多數怪物進行攻擊。最多攻擊6個怪物5次。",
       "levels": [
         {
           "level": 1,
-          "effect": "消耗HP20,MP10, 攻擊力142%"
+          "effect": "消耗HP20,MP10, 攻擊力172%"
         },
         {
           "level": 2,
-          "effect": "消耗HP20,MP10, 攻擊力144%"
+          "effect": "消耗HP20,MP10, 攻擊力174%"
         },
         {
           "level": 3,
-          "effect": "消耗HP20,MP10, 攻擊力146%"
+          "effect": "消耗HP20,MP10, 攻擊力176%"
         },
         {
           "level": 4,
-          "effect": "消耗HP20,MP10, 攻擊力148%"
+          "effect": "消耗HP20,MP10, 攻擊力178%"
         },
         {
           "level": 5,
-          "effect": "消耗HP20,MP10, 攻擊力150%"
+          "effect": "消耗HP20,MP10, 攻擊力180%"
         },
         {
           "level": 6,
-          "effect": "消耗HP20,MP10, 攻擊力152%"
+          "effect": "消耗HP20,MP10, 攻擊力182%"
         },
         {
           "level": 7,
-          "effect": "消耗HP20,MP10, 攻擊力154%"
+          "effect": "消耗HP20,MP10, 攻擊力184%"
         },
         {
           "level": 8,
-          "effect": "消耗HP20,MP10, 攻擊力156%"
+          "effect": "消耗HP20,MP10, 攻擊力186%"
         },
         {
           "level": 9,
-          "effect": "消耗HP20,MP10, 攻擊力158%"
+          "effect": "消耗HP20,MP10, 攻擊力188%"
         },
         {
           "level": 10,
-          "effect": "消耗HP20,MP10, 攻擊力160%"
+          "effect": "消耗HP20,MP10, 攻擊力190%"
         },
         {
           "level": 11,
-          "effect": "消耗HP25,MP15, 攻擊力162%"
+          "effect": "消耗HP25,MP15, 攻擊力192%"
         },
         {
           "level": 12,
-          "effect": "消耗HP25,MP15, 攻擊力164%"
+          "effect": "消耗HP25,MP15, 攻擊力194%"
         },
         {
           "level": 13,
-          "effect": "消耗HP25,MP15, 攻擊力166%"
+          "effect": "消耗HP25,MP15, 攻擊力196%"
         },
         {
           "level": 14,
-          "effect": "消耗HP25,MP15, 攻擊力168%"
+          "effect": "消耗HP25,MP15, 攻擊力198%"
         },
         {
           "level": 15,
-          "effect": "消耗HP25,MP15, 攻擊力170%"
+          "effect": "消耗HP25,MP15, 攻擊力200%"
         },
         {
           "level": 16,
-          "effect": "消耗HP25,MP15, 攻擊力172%"
+          "effect": "消耗HP25,MP15, 攻擊力202%"
         },
         {
           "level": 17,
-          "effect": "消耗HP25,MP15, 攻擊力174%"
+          "effect": "消耗HP25,MP15, 攻擊力204%"
         },
         {
           "level": 18,
-          "effect": "消耗HP25,MP15, 攻擊力176%"
+          "effect": "消耗HP25,MP15, 攻擊力206%"
         },
         {
           "level": 19,
-          "effect": "消耗HP25,MP15, 攻擊力178%"
+          "effect": "消耗HP25,MP15, 攻擊力208%"
         },
         {
           "level": 20,
-          "effect": "消耗HP25,MP15, 攻擊力180%"
+          "effect": "消耗HP25,MP15, 攻擊力210%"
         },
         {
           "level": 21,
-          "effect": "消耗HP30,MP20, 攻擊力182%"
+          "effect": "消耗HP30,MP20, 攻擊力212%"
         },
         {
           "level": 22,
-          "effect": "消耗HP30,MP20, 攻擊力184%"
+          "effect": "消耗HP30,MP20, 攻擊力214%"
         },
         {
           "level": 23,
-          "effect": "消耗HP30,MP20, 攻擊力186%"
+          "effect": "消耗HP30,MP20, 攻擊力216%"
         },
         {
           "level": 24,
-          "effect": "消耗HP30,MP20, 攻擊力188%"
+          "effect": "消耗HP30,MP20, 攻擊力218%"
         },
         {
           "level": 25,
-          "effect": "消耗HP30,MP20, 攻擊力190%"
+          "effect": "消耗HP30,MP20, 攻擊力220%"
         },
         {
           "level": 26,
-          "effect": "消耗HP30,MP20, 攻擊力192%"
+          "effect": "消耗HP30,MP20, 攻擊力222%"
         },
         {
           "level": 27,
-          "effect": "消耗HP30,MP20, 攻擊力194%"
+          "effect": "消耗HP30,MP20, 攻擊力224%"
         },
         {
           "level": 28,
-          "effect": "消耗HP30,MP20, 攻擊力196%"
+          "effect": "消耗HP30,MP20, 攻擊力226%"
         },
         {
           "level": 29,
-          "effect": "消耗HP30,MP20, 攻擊力198%"
+          "effect": "消耗HP30,MP20, 攻擊力228%"
         },
         {
           "level": 30,
-          "effect": "消耗HP30,MP20, 攻擊力200%"
+          "effect": "消耗HP30,MP20, 攻擊力230%"
         }
       ]
     },
