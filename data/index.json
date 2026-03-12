@@ -136,162 +136,167 @@
   },
   {
     "id": "job-27",
-    "name": "刺客",
+    "name": "盜賊",
     "file": "job-27.json"
   },
   {
     "id": "job-28",
-    "name": "暗殺者",
+    "name": "刺客",
     "file": "job-28.json"
   },
   {
     "id": "job-29",
-    "name": "夜使者",
+    "name": "暗殺者",
     "file": "job-29.json"
   },
   {
     "id": "job-30",
-    "name": "俠盜",
+    "name": "夜使者",
     "file": "job-30.json"
   },
   {
     "id": "job-31",
-    "name": "神偷",
+    "name": "俠盜",
     "file": "job-31.json"
   },
   {
     "id": "job-32",
-    "name": "暗影神偷",
+    "name": "神偷",
     "file": "job-32.json"
   },
   {
     "id": "job-33",
-    "name": "下忍",
+    "name": "暗影神偷",
     "file": "job-33.json"
   },
   {
     "id": "job-34",
-    "name": "中忍",
+    "name": "下忍",
     "file": "job-34.json"
   },
   {
     "id": "job-35",
-    "name": "上忍",
+    "name": "中忍",
     "file": "job-35.json"
   },
   {
     "id": "job-36",
-    "name": "隱忍",
+    "name": "上忍",
     "file": "job-36.json"
   },
   {
     "id": "job-37",
-    "name": "影武者",
+    "name": "隱忍",
     "file": "job-37.json"
   },
   {
     "id": "job-38",
-    "name": "海盜",
+    "name": "影武者",
     "file": "job-38.json"
   },
   {
     "id": "job-39",
-    "name": "打手",
+    "name": "海盜",
     "file": "job-39.json"
   },
   {
     "id": "job-40",
-    "name": "格鬥家",
+    "name": "打手",
     "file": "job-40.json"
   },
   {
     "id": "job-41",
-    "name": "拳霸",
+    "name": "格鬥家",
     "file": "job-41.json"
   },
   {
     "id": "job-42",
-    "name": "槍手",
+    "name": "拳霸",
     "file": "job-42.json"
   },
   {
     "id": "job-43",
-    "name": "神槍手",
+    "name": "槍手",
     "file": "job-43.json"
   },
   {
     "id": "job-44",
-    "name": "槍神",
+    "name": "神槍手",
     "file": "job-44.json"
   },
   {
     "id": "job-45",
-    "name": "狂狼勇士（一轉）",
+    "name": "槍神",
     "file": "job-45.json"
   },
   {
     "id": "job-46",
-    "name": "狂狼勇士（二轉）",
+    "name": "狂狼勇士（一轉）",
     "file": "job-46.json"
   },
   {
     "id": "job-47",
-    "name": "狂狼勇士（三轉）",
+    "name": "狂狼勇士（二轉）",
     "file": "job-47.json"
   },
   {
     "id": "job-48",
-    "name": "狂狼勇士（四轉）",
+    "name": "狂狼勇士（三轉）",
     "file": "job-48.json"
   },
   {
     "id": "job-49",
-    "name": "龍魔導士（一轉）",
+    "name": "狂狼勇士（四轉）",
     "file": "job-49.json"
   },
   {
     "id": "job-50",
-    "name": "龍魔導士（二轉）",
+    "name": "龍魔導士（一轉）",
     "file": "job-50.json"
   },
   {
     "id": "job-51",
-    "name": "龍魔導士（三轉）",
+    "name": "龍魔導士（二轉）",
     "file": "job-51.json"
   },
   {
     "id": "job-52",
-    "name": "龍魔導士（四轉）",
+    "name": "龍魔導士（三轉）",
     "file": "job-52.json"
   },
   {
     "id": "job-53",
-    "name": "龍魔導士（五轉）",
+    "name": "龍魔導士（四轉）",
     "file": "job-53.json"
   },
   {
     "id": "job-54",
-    "name": "龍魔導士（六轉）",
+    "name": "龍魔導士（五轉）",
     "file": "job-54.json"
   },
   {
     "id": "job-55",
-    "name": "龍魔導士（七轉）",
+    "name": "龍魔導士（六轉）",
     "file": "job-55.json"
   },
   {
     "id": "job-56",
-    "name": "龍魔導士（八轉）",
+    "name": "龍魔導士（七轉）",
     "file": "job-56.json"
   },
   {
     "id": "job-57",
-    "name": "龍魔導士（九轉）",
+    "name": "龍魔導士（八轉）",
     "file": "job-57.json"
   },
   {
     "id": "job-58",
-    "name": "龍魔導士（十轉）",
+    "name": "龍魔導士（九轉）",
     "file": "job-58.json"
+  },
+  {
+    "id": "job-59",
+    "name": "龍魔導士（十轉）",
+    "file": "job-59.json"
   }
 ]
