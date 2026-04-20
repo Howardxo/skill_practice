@@ -469,163 +469,163 @@
       "levels": [
         {
           "level": 1,
-          "effect": "消耗MP55，135%傷害"
+          "effect": "消耗MP55，105%傷害"
         },
         {
           "level": 2,
-          "effect": "消耗MP55，140%傷害"
+          "effect": "消耗MP55，110%傷害"
         },
         {
           "level": 3,
-          "effect": "消耗MP55，145%傷害"
+          "effect": "消耗MP55，115%傷害"
         },
         {
           "level": 4,
-          "effect": "消耗MP55，150%傷害"
+          "effect": "消耗MP55，120%傷害"
         },
         {
           "level": 5,
-          "effect": "消耗MP55，155%傷害"
+          "effect": "消耗MP55，125%傷害"
         },
         {
           "level": 6,
-          "effect": "消耗MP55，160%傷害"
+          "effect": "消耗MP55，130%傷害"
         },
         {
           "level": 7,
-          "effect": "消耗MP55，165%傷害"
+          "effect": "消耗MP55，135%傷害"
         },
         {
           "level": 8,
-          "effect": "消耗MP55，170%傷害"
+          "effect": "消耗MP55，140%傷害"
         },
         {
           "level": 9,
-          "effect": "消耗MP55，175%傷害"
+          "effect": "消耗MP55，145%傷害"
         },
         {
           "level": 10,
-          "effect": "消耗MP55，180%傷害"
+          "effect": "消耗MP55，150%傷害"
         },
         {
           "level": 11,
-          "effect": "消耗MP55，185%傷害"
+          "effect": "消耗MP55，155%傷害"
         },
         {
           "level": 12,
-          "effect": "消耗MP55，190%傷害"
+          "effect": "消耗MP55，160%傷害"
         },
         {
           "level": 13,
-          "effect": "消耗MP55，195%傷害"
+          "effect": "消耗MP55，165%傷害"
         },
         {
           "level": 14,
-          "effect": "消耗MP55，200%傷害"
+          "effect": "消耗MP55，170%傷害"
         },
         {
           "level": 15,
-          "effect": "消耗MP55，205%傷害"
+          "effect": "消耗MP55，175%傷害"
         },
         {
           "level": 16,
-          "effect": "消耗MP55，210%傷害"
+          "effect": "消耗MP55，180%傷害"
         },
         {
           "level": 17,
-          "effect": "消耗MP55，215%傷害"
+          "effect": "消耗MP55，185%傷害"
         },
         {
           "level": 18,
-          "effect": "消耗MP55，220%傷害"
+          "effect": "消耗MP55，190%傷害"
         },
         {
           "level": 19,
-          "effect": "消耗MP55，225%傷害"
+          "effect": "消耗MP55，195%傷害"
         },
         {
           "level": 20,
-          "effect": "消耗MP55，230%傷害"
+          "effect": "消耗MP55，200%傷害"
         },
         {
           "level": 21,
-          "effect": "消耗MP55，235%傷害"
+          "effect": "消耗MP55，205%傷害"
         },
         {
           "level": 22,
-          "effect": "消耗MP55，240%傷害"
+          "effect": "消耗MP55，210%傷害"
         },
         {
           "level": 23,
-          "effect": "消耗MP55，245%傷害"
+          "effect": "消耗MP55，215%傷害"
         },
         {
           "level": 24,
-          "effect": "消耗MP55，250%傷害"
+          "effect": "消耗MP55，220%傷害"
         },
         {
           "level": 25,
-          "effect": "消耗MP55，255%傷害"
+          "effect": "消耗MP55，225%傷害"
         },
         {
           "level": 26,
-          "effect": "消耗MP55，260%傷害"
+          "effect": "消耗MP55，230%傷害"
         },
         {
           "level": 27,
-          "effect": "消耗MP55，265%傷害"
+          "effect": "消耗MP55，235%傷害"
         },
         {
           "level": 28,
-          "effect": "消耗MP55，270%傷害"
+          "effect": "消耗MP55，240%傷害"
         },
         {
           "level": 29,
-          "effect": "消耗MP55，275%傷害"
+          "effect": "消耗MP55，245%傷害"
         },
         {
           "level": 30,
-          "effect": "消耗MP55，280%傷害"
+          "effect": "消耗MP55，250%傷害"
         },
         {
           "level": 31,
-          "effect": "消耗MP55，285%傷害"
+          "effect": "消耗MP55，255%傷害"
         },
         {
           "level": 32,
-          "effect": "消耗MP55，290%傷害"
+          "effect": "消耗MP55，260%傷害"
         },
         {
           "level": 33,
-          "effect": "消耗MP55，295%傷害"
+          "effect": "消耗MP55，265%傷害"
         },
         {
           "level": 34,
-          "effect": "消耗MP55，300%傷害"
+          "effect": "消耗MP55，270%傷害"
         },
         {
           "level": 35,
-          "effect": "消耗MP55，305%傷害"
+          "effect": "消耗MP55，275%傷害"
         },
         {
           "level": 36,
-          "effect": "消耗MP55，310%傷害"
+          "effect": "消耗MP55，280%傷害"
         },
         {
           "level": 37,
-          "effect": "消耗MP55，315%傷害"
+          "effect": "消耗MP55，285%傷害"
         },
         {
           "level": 38,
-          "effect": "消耗MP55，320%傷害"
+          "effect": "消耗MP55，290%傷害"
         },
         {
           "level": 39,
-          "effect": "消耗MP55，325%傷害"
+          "effect": "消耗MP55，295%傷害"
         },
         {
           "level": 40,
-          "effect": "消耗MP55，330%傷害"
+          "effect": "消耗MP55，300%傷害"
         }
       ]
     },

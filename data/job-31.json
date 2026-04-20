@@ -483,123 +483,123 @@
       "levels": [
         {
           "level": 1,
-          "effect": "消耗MP15, 攻擊力185%"
+          "effect": "消耗MP15, 攻擊力105%"
         },
         {
           "level": 2,
-          "effect": "消耗MP15, 攻擊力190%"
+          "effect": "消耗MP15, 攻擊力110%"
         },
         {
           "level": 3,
-          "effect": "消耗MP15, 攻擊力195%"
+          "effect": "消耗MP15, 攻擊力115%"
         },
         {
           "level": 4,
-          "effect": "消耗MP15, 攻擊力200%"
+          "effect": "消耗MP15, 攻擊力120%"
         },
         {
           "level": 5,
-          "effect": "消耗MP15, 攻擊力205%"
+          "effect": "消耗MP15, 攻擊力125%"
         },
         {
           "level": 6,
-          "effect": "消耗MP15, 攻擊力210%"
+          "effect": "消耗MP15, 攻擊力130%"
         },
         {
           "level": 7,
-          "effect": "消耗MP15, 攻擊力215%"
+          "effect": "消耗MP15, 攻擊力135%"
         },
         {
           "level": 8,
-          "effect": "消耗MP15, 攻擊力220%"
+          "effect": "消耗MP15, 攻擊力140%"
         },
         {
           "level": 9,
-          "effect": "消耗MP15, 攻擊力225%"
+          "effect": "消耗MP15, 攻擊力145%"
         },
         {
           "level": 10,
-          "effect": "消耗MP15, 攻擊力230%"
+          "effect": "消耗MP15, 攻擊力150%"
         },
         {
           "level": 11,
-          "effect": "消耗MP18, 攻擊力235%"
+          "effect": "消耗MP18, 攻擊力155%"
         },
         {
           "level": 12,
-          "effect": "消耗MP18, 攻擊力240%"
+          "effect": "消耗MP18, 攻擊力160%"
         },
         {
           "level": 13,
-          "effect": "消耗MP18, 攻擊力245%"
+          "effect": "消耗MP18, 攻擊力165%"
         },
         {
           "level": 14,
-          "effect": "消耗MP18, 攻擊力250%"
+          "effect": "消耗MP18, 攻擊力170%"
         },
         {
           "level": 15,
-          "effect": "消耗MP18, 攻擊力255%"
+          "effect": "消耗MP18, 攻擊力175%"
         },
         {
           "level": 16,
-          "effect": "消耗MP18, 攻擊力260%"
+          "effect": "消耗MP18, 攻擊力180%"
         },
         {
           "level": 17,
-          "effect": "消耗MP18, 攻擊力265%"
+          "effect": "消耗MP18, 攻擊力185%"
         },
         {
           "level": 18,
-          "effect": "消耗MP18, 攻擊力270%"
+          "effect": "消耗MP18, 攻擊力190%"
         },
         {
           "level": 19,
-          "effect": "消耗MP18, 攻擊力275%"
+          "effect": "消耗MP18, 攻擊力195%"
         },
         {
           "level": 20,
-          "effect": "消耗MP18, 攻擊力280%"
+          "effect": "消耗MP18, 攻擊力200%"
         },
         {
           "level": 21,
-          "effect": "消耗MP27, 攻擊力285%"
+          "effect": "消耗MP27, 攻擊力205%"
         },
         {
           "level": 22,
-          "effect": "消耗MP27, 攻擊力290%"
+          "effect": "消耗MP27, 攻擊力210%"
         },
         {
           "level": 23,
-          "effect": "消耗MP27, 攻擊力295%"
+          "effect": "消耗MP27, 攻擊力215%"
         },
         {
           "level": 24,
-          "effect": "消耗MP27, 攻擊力300%"
+          "effect": "消耗MP27, 攻擊力220%"
         },
         {
           "level": 25,
-          "effect": "消耗MP27, 攻擊力305%"
+          "effect": "消耗MP27, 攻擊力225%"
         },
         {
           "level": 26,
-          "effect": "消耗MP27, 攻擊力310%"
+          "effect": "消耗MP27, 攻擊力230%"
         },
         {
           "level": 27,
-          "effect": "消耗MP27, 攻擊力315%"
+          "effect": "消耗MP27, 攻擊力235%"
         },
         {
           "level": 28,
-          "effect": "消耗MP27, 攻擊力320%"
+          "effect": "消耗MP27, 攻擊力240%"
         },
         {
           "level": 29,
-          "effect": "消耗MP27, 攻擊力325%"
+          "effect": "消耗MP27, 攻擊力245%"
         },
         {
           "level": 30,
-          "effect": "消耗MP27, 攻擊力330%"
+          "effect": "消耗MP27, 攻擊力250%"
         }
       ]
     }
