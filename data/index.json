@@ -298,5 +298,45 @@
     "id": "job-59",
     "name": "龍魔導士（十轉）",
     "file": "job-59.json"
+  },
+  {
+    "id": "job-60",
+    "name": "劍豪 1轉",
+    "file": "job-60.json"
+  },
+  {
+    "id": "job-61",
+    "name": "劍豪 2轉",
+    "file": "job-61.json"
+  },
+  {
+    "id": "job-62",
+    "name": "劍豪 3轉",
+    "file": "job-62.json"
+  },
+  {
+    "id": "job-63",
+    "name": "劍豪 4轉",
+    "file": "job-63.json"
+  },
+  {
+    "id": "job-64",
+    "name": "陰陽師 1轉",
+    "file": "job-64.json"
+  },
+  {
+    "id": "job-65",
+    "name": "陰陽師 2轉",
+    "file": "job-65.json"
+  },
+  {
+    "id": "job-66",
+    "name": "陰陽師 3轉",
+    "file": "job-66.json"
+  },
+  {
+    "id": "job-67",
+    "name": "陰陽師 4轉",
+    "file": "job-67.json"
   }
 ]
