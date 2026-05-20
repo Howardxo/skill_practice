@@ -759,7 +759,7 @@
     {
       "name": "閃．連殺",
       "maxLevel": 40,
-      "description": "向近距離的敵人，快速攻擊6次。",
+      "description": "向近距離的敵人，快速攻擊8次。",
       "levels": [
         {
           "level": 1,
